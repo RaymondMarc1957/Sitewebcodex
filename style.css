@@ -1,0 +1,17 @@
+:root{--primary:#2f7f60;--bg:#f6fbf8;--text:#133225;--muted:#56766a}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,Arial,sans-serif;color:var(--text);background:var(--bg);line-height:1.6}
+.container{width:min(1100px,92%);margin:0 auto}.section{padding:64px 0}.alt{background:#eaf5ef}
+.topbar{position:sticky;top:0;background:#ffffffdd;backdrop-filter:blur(8px);border-bottom:1px solid #d7e9df;z-index:20}
+.nav-wrap{display:flex;align-items:center;justify-content:space-between;padding:12px 0}.logo{font-weight:800;color:var(--text);text-decoration:none}
+#menuToggle{display:none;background:none;border:none;font-size:24px}nav{display:flex;gap:18px}nav a{text-decoration:none;color:#22493a;font-weight:600}
+.hero{position:relative}.hero img{width:100%;max-height:520px;object-fit:cover;display:block}.hero-content{margin-top:-120px;background:#fffffff5;padding:28px;border-radius:18px;box-shadow:0 20px 40px #0001}
+h1,h2,h3{line-height:1.2}.cta-row{display:flex;gap:12px;flex-wrap:wrap}.btn{display:inline-block;padding:11px 18px;border-radius:10px;text-decoration:none;font-weight:700;border:1px solid transparent}
+.btn.primary{background:var(--primary);color:#fff}.btn.secondary{border-color:#8bc9ad;color:var(--primary);background:#fff}
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:#fff;padding:14px;border-radius:14px;box-shadow:0 8px 20px #0000000a}.card img{width:100%;height:180px;object-fit:cover;border-radius:10px}
+.prices{list-style:none;padding:0;margin:0;display:grid;gap:12px}.prices li{display:flex;justify-content:space-between;background:#fff;padding:14px 16px;border-radius:10px}
+.hours{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.hours p{margin:0;background:#fff;padding:10px;border-radius:8px}iframe{width:100%;height:320px;border:0;border-radius:14px;margin-top:16px}
+details{background:#fff;border-radius:10px;padding:12px 14px;margin-bottom:10px}summary{font-weight:700;cursor:pointer}
+.contact-form{display:grid;gap:12px}.contact-form label{display:grid;gap:6px;font-weight:600}.contact-form input,.contact-form textarea{padding:10px;border:1px solid #bddacb;border-radius:8px}
+footer{padding:24px 0;border-top:1px solid #d7e9df;color:var(--muted)}
+@media (max-width:900px){.grid-3,.hours{grid-template-columns:1fr 1fr}}
+@media (max-width:680px){#menuToggle{display:block}nav{display:none;position:absolute;right:4%;top:58px;background:#fff;padding:10px;border:1px solid #cee4d8;border-radius:10px;flex-direction:column}nav.open{display:flex}.hero-content{margin-top:0;border-radius:0;width:100%}.grid-3,.hours{grid-template-columns:1fr}}

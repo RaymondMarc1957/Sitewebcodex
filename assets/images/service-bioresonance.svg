@@ -1,0 +1,7 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 400'>
+<rect width='600' height='400' fill='#f3efff'/>
+<circle cx='300' cy='200' r='110' fill='none' stroke='#7f67d9' stroke-width='14'/>
+<circle cx='300' cy='200' r='70' fill='none' stroke='#9f8cf0' stroke-width='10'/>
+<path d='M120 200 C180 120, 240 280, 300 200 C360 120, 420 280, 480 200' stroke='#5d47b5' stroke-width='8' fill='none'/>
+<text x='90' y='350' font-size='34' fill='#3f2f7f' font-family='Arial'>Biorésonance & magnétisme</text>
+</svg>

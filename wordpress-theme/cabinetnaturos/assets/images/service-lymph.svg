@@ -1,0 +1,8 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 400'>
+<rect width='600' height='400' fill='#eef7ff'/>
+<circle cx='220' cy='185' r='70' fill='#9fd3ff'/>
+<circle cx='305' cy='165' r='60' fill='#74bfff'/>
+<circle cx='380' cy='205' r='65' fill='#4caeff'/>
+<path d='M120 290 Q300 130 490 280' stroke='#2e8ee6' stroke-width='14' fill='none'/>
+<text x='70' y='350' font-size='34' fill='#15538d' font-family='Arial'>Drainage lymphatique</text>
+</svg>
